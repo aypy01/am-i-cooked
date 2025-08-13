@@ -1,22 +1,24 @@
 # Am I Cooked? 
-## Heart Disease Prediction Web App
-
-This project combines a machine learning model for predicting 10-year Coronary Heart Disease (CHD) risk with a user-friendly Flask web application — and a little bit of dark humor.
-
-Ever looked at your lifestyle and wondered *“Am I cooked?”* Well, now there’s a web app that can tell you — based on science, not just your last late-night pizza binge.
+Ever looked at your lifestyle and wondered *“Am I cooked?”* Well, now there’s a web app that can tell you  based on science, not just your last late-night pizza binge.
+> ## Heart Disease Prediction Web App
+> This project combines a machine learning model for predicting 10-year Coronary Heart Disease (CHD) risk with a user-friendly Flask web application and a little bit of dark humor.
 
 ---
 
-## 🩺 Introduction
+![App Preview](assets/img2.png)
 
-This application uses the **Framingham Heart Study dataset** to predict the risk of CHD. It’s a blend of data preprocessing, model training, and front-end flavor — all served with some cheeky personality. You input your health data, and it tells you if your heart’s chilling or on thin ice (figuratively, of course).
+> ## Introduction
+> This application uses the **Framingham Heart Study dataset** to predict the risk of CHD. It’s a blend of data preprocessing, model training, and front-end flavor — all served with some cheeky personality. You input your health data, and it tells you if your heart’s chilling or on thin ice (figuratively, of course).
 
 ---
 
-## 📊 Dataset
+> ## Note
+> The improved `best_model` achieves an **accuracy of 96%** in predictions.
 
-The dataset, `framingham.csv`, is sourced from [Kaggle](https://www.kaggle.com/datasets/aasheesh200/framingham-heart-study-dataset). It includes the following features:
+---
 
+> ## Dataset
+> The dataset, `framingham.csv`, is sourced from [Kaggle](https://www.kaggle.com/datasets/aasheesh200/framingham-heart-study-dataset). It includes the following features:
 - `male`: Male (1) or Female (0)  
 - `age`: Age of the patient  
 - `currentSmoker`: Currently smoking (1 = yes, 0 = no)  
@@ -36,7 +38,7 @@ The dataset, `framingham.csv`, is sourced from [Kaggle](https://www.kaggle.com/d
 
 ---
 
-## ⚙️ Dependencies
+> ## Dependencies
 
 - `Flask`: Web framework  
 - `numpy`: Numerical computation  
@@ -50,9 +52,9 @@ All dependencies can be installed using the `requirements.txt`.
 
 ---
 
-## 💻 How to Run This Project
+> ## How to Run This Project
 
-### 1. Clone the repository
+>### Clone the repository
 
 ```bash
 git clone https://github.com/yourusername/am-i-cooked.git
