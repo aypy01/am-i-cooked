@@ -65,6 +65,8 @@ git clone https://github.com/yourusername/am-i-cooked.git
 cd am-i-cooked
 
 ```
+> ##Observation:
+> Over the past week, I’ve learned several key lessons about model behavior in small datasets like here. Even with 4240 rows, dataset size can be “small” relative to feature complexity, making models more sensitive to noise, imbalance, and random splits. Unrealistic or extreme test inputs often lead to unreliable predictions, while realistic values produce more stable results. I also noticed inconsistent outputs between runs, which was due to random splits and the absence of a fixed random seed. Dataset imbalance further skews results, requiring strategies like stratified splitting or resampling. Additionally, I confirmed that saving models correctly (via pickle) and applying preprocessing steps, such as scaling, is good practice — these steps typically improve model stability and performance without harming accuracy. Overall, I moved from 50% to 98% accuracy while avoiding overfitting, and now understand the critical role of balanced, realistic data, reproducibility, and preprocessing in building reliable machine learning pipelines.
 ##  Related Repository
 
 [![➡️ Sci-kit learn](https://img.shields.io/badge/scikit-learn-000000?style=for-the-badge&logo=github&logoColor=00FF80)](https://github.com/aypy01/scikit-learn)
