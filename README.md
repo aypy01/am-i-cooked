@@ -1,5 +1,7 @@
 # Am I Cooked? 
-Ever looked at your lifestyle and wondered *“Am I cooked?”* Well, now there’s a web app that can tell you  based on science, not just your last late-night pizza binge.
+Ever looked at your lifestyle and wondered *“Am I cooked?”*
+
+Well, now there’s a web app that can tell you based on ML model trained with **96% accuracy**.
 > ## Heart Disease Prediction Web App
  This project combines a machine learning model for predicting 10-year Coronary Heart Disease (CHD) risk with a user-friendly Flask web application and a little bit of dark humor.
 
@@ -12,7 +14,7 @@ Ever looked at your lifestyle and wondered *“Am I cooked?”* Well, now there�
 ![App Preview](assets/img2.png)
 
 > ## Introduction
- This application uses the **Framingham Heart Study dataset** to predict the risk of CHD. It’s a blend of data preprocessing, model training, and front-end flavor — all served with some cheeky personality. You input your health data, and it tells you if your heart’s chilling or on thin ice (figuratively, of course).
+ This application uses the **Framingham Heart Study dataset** to predict the risk of CHD. It’s a blend of data preprocessing, model training, and front-end flavor all served with some cheeky personality. You input your health data, and it tells you if your heart’s chilling or on thin ice (figuratively, of course).
 
 ---
 
